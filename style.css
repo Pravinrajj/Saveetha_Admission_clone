@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    color: whitesmoke;
+    background-image: url(bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.content{
+    width:100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-g {
+    width: 100%;
+}
+
+.add {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#city {
+    width: 200%;
+}
+
+#state {
+    width: 200%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.admform{
+    margin: 1px 20px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 625px;
+}
+
+.form{
+    height: 800px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input,select{
+    margin: 0 -20px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+:placeholder-shown{
+    color: rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
